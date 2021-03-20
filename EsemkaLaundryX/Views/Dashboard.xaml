@@ -1,0 +1,14 @@
+﻿<Window x:Class="EsemkaLaundryX.Views.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EsemkaLaundryX.Views"
+        mc:Ignorable="d"
+        Title="Dashboard" Height="564" Width="1058">
+    <Grid>
+        <StackPanel x:Name="PnlControl" HorizontalAlignment="Left" Height="513" Margin="213,10,0,0" VerticalAlignment="Top" Width="837"/>
+        <Button x:Name="btnCategory" Content="Button" HorizontalAlignment="Left" Margin="28,96,0,0" VerticalAlignment="Top" Width="149" Height="46" Click="BtnCategory_Click" RenderTransformOrigin="0.812,0.804"/>
+
+    </Grid>
+</Window>
